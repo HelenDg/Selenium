@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SaleorWeb">
+
+<test thread-count="5" name="SaleorWeb1_2">
+<parameter name="Browser" value="chrome"/>  
+    <classes>
+      <class name="com.testNG.SaleorWeb1">
+      </class>
+      <class name="com.testNG.SaleorWeb2">
+      </class>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="SaleorWeb1_3">
+  <parameter name="Browser" value="chrome"/>  
+    <classes>
+      <class name="com.testNG.SaleorWeb1">
+      </class>
+      <class name="com.testNG.SaleorWeb3">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

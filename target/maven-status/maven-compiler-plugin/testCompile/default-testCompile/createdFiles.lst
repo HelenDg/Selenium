@@ -1,0 +1,4 @@
+com\testNG\LoadTest01.class
+com\testNG\OpenBrowser.class
+com\testNG\SendEmail.class
+com\testNG\LogInEmail.class

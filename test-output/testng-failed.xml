@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SaleorWeb]">
+  <test thread-count="5" name="SaleorWeb1_3(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.testNG.SaleorWeb3">
+        <methods>
+          <include name="Action"/>
+          <include name="Open_Browser"/>
+        </methods>
+      </class> <!-- com.testNG.SaleorWeb3 -->
+    </classes>
+  </test> <!-- SaleorWeb1_3(failed) -->
+</suite> <!-- Failed suite [SaleorWeb] -->
